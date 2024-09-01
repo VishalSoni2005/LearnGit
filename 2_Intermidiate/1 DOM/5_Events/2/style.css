@@ -1,0 +1,48 @@
+body{
+    background-color: goldenrod;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    border :2px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.circle{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sq{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.sq:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}

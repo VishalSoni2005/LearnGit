@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OK</title>
+</head>
+<body style="background-color: rgb(9, 60, 106); color: gold;">
+    <div class="list">
+        <ol class="innerList">
+            <li class="basket">Mango</li>
+            <li class="basket">Tomato</li>
+            <li class="basket">Brinjal</li>
+        </ol>
+    </div>
+    <script>
+        const me = document.querySelector('.innerList');
+        // console.log(me);
+        // console.log(me.children);
+        // console.log(me.children.lastChild);
+        // console.log(me.children[2].innerText);
+        for (let i = 0; i < me.children.length; i++) {
+            console.log(me.children[i].innerHTML);
+        }
+    </script>
+</body>
+</html>

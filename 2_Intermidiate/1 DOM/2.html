@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script in HTML</title>
+</head>
+<body style="background-color: black ; color:pink;">
+    <div class="parent">
+        <div class="child">Monday</div>
+        <div class="child">Tuesday</div>
+        <div class="child">Wednesday</div>
+        <div class="child">Thursday</div>
+        <div class="child">Friday</div>
+        <div class="child">Saturday</div>
+        <div class="child">Sunday</div>
+    </div>
+    <script>
+        let parent = document.querySelector('.parent');
+        // console.log(parent);    
+        // console.log(parent.children);   //it is an array like object
+       for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+        if(i % 2 == 0) parent.children[i].style.color = 'yellow';
+        else parent.children[i].style.color = 'aqua';
+       }
+       
+
+
+
+    </script>
+</body>
+</html>
